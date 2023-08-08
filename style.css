@@ -197,6 +197,11 @@ a.btn {
     color: var(--primary-text-color);
 }
 
+.btn-primary:hover {
+    background-color: var(--primary-text-color);
+    color: var(--primary-color);
+}
+
 .btn-secondary {
     background-color: transparent;
     color: var(--primary-text-color);
