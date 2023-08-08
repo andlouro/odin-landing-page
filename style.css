@@ -19,6 +19,10 @@
     background-color: var(--secondary-color);
 }
 
+.bg-light {
+    background-color: var(--secondary-text-color);
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -141,4 +145,24 @@ p.img-credits {
     height: 120px;
     border-radius: 12px;
     object-fit: cover;
+}
+
+blockquote {
+    padding: 80px 30px;
+    color: var(--secondary-color);
+}
+
+blockquote p {
+    font-size: var(--text-size-medium);
+    font-weight: var(--text-weight-light);
+    font-style: italic;
+}
+
+blockquote footer {
+    font-size: var(--text-size-small);
+    font-weight: var(--text-weight-bold);
+}
+
+blockquote cite {
+    font-size: var(--text-size-xs);
 }
