@@ -213,3 +213,14 @@ a.btn {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
 }
+
+.footer {
+    color: var(--primary-text-color);
+    display: flex;
+    justify-content: center;
+}
+
+.footer a {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
