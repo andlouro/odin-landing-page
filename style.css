@@ -5,7 +5,7 @@
     --secondary-color: #1F2937;
     --primary-text-color: #F9FAF8;
     --secondary-text-color: #E5E7EB;
-    --text-size-xs: 12px;
+    --text-size-xs: 10px;
     --text-size-small: 18px;
     --text-size-medium: 24px;
     --text-size-large: 36px;
@@ -31,6 +31,10 @@ body {
 .row {
     max-width: 920px;
     margin: 0 auto;
+}
+
+.col {
+    flex: 1;
 }
 
 .header {
@@ -102,12 +106,39 @@ body {
     max-width: 100%;
 }
 
-.hero-section-img span {
-    font-size: var(--text-size-xs);
+.hero-section-img span,
+.hero-section-img a {
     color: var(--primary-text-color);
 }
 
-.hero-section-img a {
-    color: var(--primary-text-color);
+.img-credits {
+    font-size: var(--text-size-xs);
+}
+
+p.img-credits {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.img-credits a {
     text-decoration: none;
+}
+
+.info-section .row {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.info-section h2 {
+    font-size: var(--text-size-large);
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.info-img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    object-fit: cover;
 }
